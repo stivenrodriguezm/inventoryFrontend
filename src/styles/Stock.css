@@ -1,0 +1,136 @@
+
+.display_none{
+    display: none;
+}
+
+/* EDITAR */
+
+#stock_edit_form_container{
+    display: none;
+    width: 300px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+
+.stock_edit_form_container input{
+    width: 295px;
+}
+.stock_edit_form_container select{
+    width: 300px;
+}
+
+
+/* AGREGAR */
+
+#stock_form_container{
+    display: none;
+    width: 350px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+
+#stock_form_container input{
+    width: calc(100% - 15px);
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 10px; 
+    border: 1px solid #b7b9c0;
+}
+
+.stock_form_container select{
+    border: 1px solid #b7b9c0;
+    width: 350px;
+    margin: 2px 0;
+}
+
+/* FILTROS */
+.container_filtros{
+    display: flex;
+    height: 110px;
+    justify-content: space-between;    
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.div_filtro{
+    background-color: rgb(198, 198, 226);
+    width: 280px;
+    height: 90px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_filtro select {
+    border: none;
+    background: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+    color:rgb(68, 68, 80);
+}
+
+/* .div_filtro_btn{
+    width: 80px;
+} */
+
+.btn_quitar_filtros{
+    width: 140px;
+}
+
+
+/* TABLA */
+
+.stock_tabla_container{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.tabla_stock{
+    display: block;
+    margin: 15px auto;
+    width: 1100px;
+}
+
+.stock_id{
+    width: 6%;
+}
+.stock_producto{
+    width: 12%;
+}
+.stock_categoria{
+    width: 15%;
+}
+.stock_proveedor{
+    width: 11%;
+}
+.stock_factura{
+    width: 8%;
+}
+.stock_precio{
+    width: 10%;
+}
+.stock_disponible{
+    width: 5%;
+}
+.stock_nota{
+    width: 20%;
+}
+.stock_editar{
+    width: 6%;
+}
+.stock_eliminar{
+    width: 6%;
+}

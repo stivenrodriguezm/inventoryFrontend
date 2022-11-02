@@ -1,0 +1,318 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.centrar_texto {
+    text-align: center;
+}
+.button_hover svg{
+    pointer-events: none;
+}
+.button_hover:hover{
+    cursor: pointer;
+}
+
+.container_main {
+    position: absolute;
+    left: 260px;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    width: calc(100% - 260px);
+}
+
+.container_body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100% !important;
+}
+.barra_navegacion{
+    height: 65px;
+    border-bottom: 1px solid rgb(209, 206, 206);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    font-family: 'Poppins';
+}
+.barra_navegacion h2{
+    color: #43588f;
+    font-weight: 400;
+}
+
+.barra_agregar{
+    display: flex;
+    align-items: center;
+    background-color: #645df6;
+    height: 38px;
+    width: 135px;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.barra_agregar a{
+    color: white;
+}
+
+.body{
+    background-color: #f5f8fb;
+    padding: 25px 25px;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+.icon_border button{
+    color: #1d215b;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #1d215b;
+    cursor: pointer;
+}
+
+.input_barra{
+    width: 300px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid #1d215b;
+}
+.container_barra_interno{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    align-items: center;
+}
+
+/*GENERAL*/
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form button {
+    background-color:black; 
+    color: white;
+    margin-right: 5px;
+    margin-left:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+}
+.icon_div_body{
+    color: white;
+    width: 28px;
+    height: 28px;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #1d215b;
+}
+.icon_div_body svg,
+.icon_border svg
+{
+    margin: 0 auto;
+}
+.dollars:before { content:'$'; }
+.subtitulo{
+    color: rgb(69, 70, 114);
+    font-size: 15px;
+}
+.form_group{
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.form_group label{
+    color: #3b5698;
+    font-size: 14.5px;
+    font-weight: 500;
+}
+.form_group input {
+    height: 25px;
+    margin: 2px 0;
+    border: 1px solid #b7b9c0;
+    border-radius: 4px;
+}
+.form_group select {
+    border: 1px solid #b7b9c0;
+    border-radius: 4px;
+    height: 29px;
+}
+.form_group_half input {
+    width: 211.5px;
+}
+
+.form_group_half select {
+    width: 218px;
+    height: 29px;
+    padding: 1px 2px;
+}
+
+/* FORM */
+
+.form_container{
+    border: 1px solid black;
+    padding: 10px;
+}
+.form label{
+    width: 180px;
+    margin: 10px 0px 10px 10px;
+    display: inline-block;
+    font-size: 17px;
+}
+.barra_separadora_form{
+    border-bottom: 1px solid rgb(192, 190, 190);
+}
+.quince_margin_bottom{
+    margin-bottom: 15px;
+}
+
+/* TABLE GENERAL */
+.tabla {
+    border-radius: 12px 12px 0 0;
+    margin: 0 auto;
+    align-items: center;
+}
+.titulos_tabla{
+    background-color: white;
+    border-radius: 4px;
+    color: #8ea6c1;
+    height: 55px;
+    padding: 0;
+    margin: 0 auto;
+}
+.titulos_tabla th{
+    font-weight: 600;
+    border-bottom: 0.8px solid rgb(209, 206, 206);
+}
+.contenido_tabla{
+    height: 55px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+.contenido_tabla td{
+    border-bottom: 1px solid rgb(233, 233, 233);
+    color: #3b5698;
+}
+
+/* CATEGORIAS TABLA */
+
+.cat_tabla{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.border_top_left{
+    border-radius: 10px 0 0 0;
+}
+
+.border_top_right{
+    border-radius: 0 10px 0 0;
+}
+.cat_cat_description{
+    padding-left: 5px;
+}
+
+.cat_edit_container {
+    display: none;
+}
+
+
+
+/*  PRODUCTOS */
+
+/* Encabezado Productos */
+
+.productos_form_container{
+    width: 600px;
+}
+
+.productos_form input{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 4px;
+    padding: 5px;
+}
+
+
+.productos_form select{
+    width: 409px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.productos_form label{
+    height: 50px;
+    margin: 0 5px 4px 0;
+    align-self: flex-start !important;
+}
+
+/* Producto Tabla */
+
+.prod_tabla{
+    display: block;
+    margin: 15px auto;
+}
+
+.id_tab {
+    width: 5%;
+}
+.proveedor_tab {
+    width: 10%;
+}
+.categoria_tab {
+    width: 13%;
+}
+.producto_tab {
+    width: 15%;
+}
+.costo_tab {
+    width: 7%;
+}
+.medida_tab {
+    width: 10%;
+}
+.tiempo_tab {
+    width: 10%;
+}
+.nota_tab {
+    width: 25%;
+}
+.editar_tab {
+    width: 5%;
+}
+.eliminar_tab {
+    width: 5%;
+}
+
+.prod_edit_container{
+    display: none;
+}
+
+/* ------------------------------------------------------------*/
+
+
+/* BOTON */
+
+.btn{
+    height: 35px;
+    width: 130px;
+}
+
+.btn_primary{
+    background-color: #645df6;
+    border: 1px solid #9996d7;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}

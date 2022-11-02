@@ -1,0 +1,99 @@
+
+
+.agregar_transportador{
+    font-weight: 400;
+    font-size: 21px;
+    color: rgb(69, 70, 114);
+    margin: 12px 0 21px;
+}
+
+/* EDITAR VENDEDOR */
+
+#transportadores_editar_container{
+    display: none;
+    width: 350px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+
+.transportadores_editar_container input{
+    width: 343px;
+}
+.transportadores_editar_container select{
+    width: 349px;
+}
+
+
+
+/* AGREGAR VENDEDOR */
+
+#transportadores_form_container {
+    display: none;
+    width: 400px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+
+.transportadores_form_container input {
+    width: 393px;
+    height: 20px;
+    margin: 5px 0 10px;
+}
+.transportadores_form_container select {
+    width: 399px;
+    height: 24px;
+    margin: 5px 0 10px;
+    padding: 1px 2px;
+}
+
+
+
+/* TABLA VENDEDORES */
+
+.transportadores_tabla_container{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.tabla_transportadores{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.transportadores_id{
+    width: 7%;
+}
+.transportadores_nombre{
+    width: 10%;
+}
+.transportadores_telefono{
+    width: 12%;
+}
+.transportadores_cedula{
+    width: 12%;
+}
+.transportadores_direccion{
+    width: 18%;
+}
+.transportadores_nombre_contacto{
+    width: 15%;
+}
+.transportadores_numero_contacto{
+    width: 12%;
+}
+.transportadores_editar{
+    width: 7%;
+}
+.transportadores_eliminar{
+    width: 7%;
+}

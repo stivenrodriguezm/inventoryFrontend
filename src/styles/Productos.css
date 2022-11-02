@@ -1,0 +1,102 @@
+
+.agregar_producto{
+    font-weight: 400;
+    font-size: 21px;
+    color: rgb(69, 70, 114);
+    margin: 12px 0 21px;
+}
+
+
+/* EDITAR VENDEDOR */
+
+#productos_edit_form_container{
+    display: none;
+    width: 350px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+
+.input_editar_vendedor input{
+    width: 343px;
+}
+.select_editar_vendedor select{
+    width: 349px;
+}
+/* AGREGAR VENDEDOR */
+
+#productos_form_container {
+    display: none;
+    width: 400px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+
+.productos_form_container input {
+    width: 393px;
+    height: 20px;
+    margin: 5px 0 10px;
+}
+.productos_form_container select {
+    width: 399px;
+    height: 24px;
+    margin: 5px 0 10px;
+    padding: 1px 2px;
+}
+
+
+/* TABLA */
+
+.productos_tabla_container{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.tabla_remisiones{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.prod_id{
+    width: 6%;
+}
+.prod_nombre{
+    width: 10%;
+}
+.prod_categoria{
+    width: 10%;
+}
+.prod_proveedor{
+    width: 9%;
+}
+.prod_costo{
+    width: 10%;
+}
+.prod_medida{
+    width: 10%;
+}
+.prod_tiempo{
+    width: 7%;
+}
+.prod_nota{
+    width: 22%;
+}
+.prod_editar{
+    width: 4%;
+}
+.prod_eliminar{
+    width: 5%;
+}
+
+.display_wrap {
+    display: wrap;
+}

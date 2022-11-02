@@ -1,0 +1,61 @@
+
+
+.agregar_categoria{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(69, 70, 114);
+    margin: 12px 0 21px;
+}
+#edit_categorias_form{
+    display: none;
+    width: 350px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+
+#add_categorias_form {
+    display: block;
+    width: 350px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+
+.add_categorias_form input,
+.edit_categorias_form input{
+    width: 345px;
+}
+
+/* TABLA CATEGORIAS */
+
+.categorias_tabla_container{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.tabla_categorias{
+    width: 320px;
+    margin: 0 auto;
+}
+
+.cat_id{
+    width: 10%;
+}
+.cat_categoria{
+    width: 50%;
+}
+.cat_editar{
+    width: 20%;
+}
+.cat_eliminar{
+    width: 20%;
+}

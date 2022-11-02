@@ -1,0 +1,166 @@
+
+.ventas_form_container{
+    width: 450px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+
+#ventas_form_container{
+    display: none;
+}
+
+
+.ventas_form_container select {
+    width: 345px;
+    height: 25px;
+    margin: 2px 0;
+    border: 1px solid #b7b9c0;
+    border-radius: 4px;
+}
+
+.ventas_editar_container{
+    width: 350px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px 20px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+.ventas_editar_container input{
+    width: 290px;
+    height: 20px;
+    margin: 5px 0 10px;
+}
+
+#ventas_editar_container {
+    display: none;
+}
+
+.tabla_ventas{
+    width: 1200px;
+    margin: 0 auto;
+}
+.ventas_tabla_container{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.titulos_tabla_ventas{
+    background-color: white;
+    border-radius: 4px;
+    color: #8ea6c1;
+    height: 55px;
+    padding: 0;
+    margin: 0 auto;
+}
+.titulos_tabla_ventas th{
+    font-weight: 600;
+    border-bottom: 0.8px solid rgb(209, 206, 206);
+    padding: 0;
+    margin: 0;
+    border: none !important;
+}
+.agregar_venta{
+    font-weight: 400;
+    font-size: 21px;
+    color: rgb(69, 70, 114);
+    margin: 12px 0 21px;
+}
+
+.venta_estado_formgroup,
+.venta_fechas_formgroup {
+    display: flex;
+}
+
+
+.estado_ventas_form{
+    margin-left: 15px;
+}
+.vendedor_form_ventas select{
+    width: 100%;
+    height: 29px;
+    padding: 1px 2px;
+}
+
+.nombre_cliente_form_ventas input{
+    width: calc(100% - 6px);
+}
+
+.venta_ciudad_direccion_formgroup{
+    display: flex;
+}
+
+
+/*editar venta */
+
+.input_editar_ventas input{
+    width: calc(100% - 6px);
+    margin-top: 0;
+}
+.select_editar_ventas select {
+    width: 100%;
+    height: 24px;
+    padding: 1px 2px;
+    margin-bottom: 10px;
+    border: 1px solid #b7b9c0;
+
+}
+
+
+
+
+
+.id_tab_ventas{
+    width: 6%;
+}
+.fecha_tab_ventas{
+
+}
+.vendedor_tab_ventas{
+
+}
+.id_cliente_ventas{
+
+}
+.cliente_ventas{
+    width: 12%;
+}
+.cedula_ventas{
+
+}
+.fecha_ventas{
+
+}
+.abono_ventas{
+    width: 10%
+}
+.saldo_ventas{
+    width: 10%
+}
+.valor_ventas{
+    width: 10%
+}
+.estado_ventas{
+
+}
+.editar_ventas{
+    width: 5%;
+}
+.eliminar_tab_ventas{
+    width: 5%;
+    padding-right: 5px;
+}
+
+.ventas_venta_body{
+    text-align: center;
+}
+.ventas_fecha_body{
+    text-align: center;
+}

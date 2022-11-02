@@ -1,0 +1,104 @@
+
+
+
+.agregar_vendedor{
+    font-weight: 400;
+    font-size: 21px;
+    color: rgb(69, 70, 114);
+    margin: 12px 0 21px;
+}
+/* EDITAR VENDEDOR */
+
+#vendedores_editar_container{
+    display: none;
+    width: 350px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+
+.input_editar_vendedor input{
+    width: 343px;
+}
+.select_editar_vendedor select{
+    width: 349px;
+}
+
+
+/* AGREGAR VENDEDOR */
+
+#vendedores_form_container {
+    display: none;
+    width: 400px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+
+.vendedores_form_container input {
+    width: 393px;
+    height: 20px;
+    margin: 5px 0 10px;
+}
+.vendedores_form_container select {
+    width: 399px;
+    height: 24px;
+    margin: 5px 0 10px;
+    padding: 1px 2px;
+}
+
+
+
+/* TABLA VENDEDORES */
+
+.vendedores_tabla_container{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.tabla_vendedores{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.vendedores_id{
+    width: 3%;
+}
+.vendedores_nombre{
+    width: 10%;
+}
+.vendedores_telefono{
+    width: 9%;
+}
+.vendedores_cedula{
+    width: 9%;
+}
+.vendedores_correo{
+    width: 20%;
+}
+.vendedores_direccion{
+    width: 14%;
+}
+.vendedores_activo{
+    width: 6%;
+}
+.vendedores_nombre_emergencia{
+    width: 10%;
+}
+.vendedores_numero_emergencia{
+    width: 9%;
+}
+.vendedores_editar{
+    width: 5%;
+}
+.vendedores_eliminar{
+    width: 5%;
+}

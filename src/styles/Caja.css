@@ -1,0 +1,258 @@
+
+.caja{
+    display: none;
+}
+.recibosDeCaja{
+    display: none;
+}
+.comprobantesDeEgreso{
+    display: none;
+}
+
+
+/* seccion arriba */
+
+.elige_una_tabla {
+    min-height: 200px;
+    display: flex;
+}
+
+.dinero_tag {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+}
+
+.form_and_data{
+    width: 50%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.seccion_saldo_actual{
+    height: 80px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    background-color: rgb(214, 233, 215);
+    border: 1px solid rgb(183, 184, 183);
+    border-radius: 5px;
+}
+.seccion_saldo_actual a{
+    margin: auto;
+}
+
+/* formularios */
+
+.formularios_ocultos{
+    padding-top: 25px;
+}
+
+#caja_container{
+    display: none;
+    width: 350px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+#rc_container{
+    display: none;
+    width: 350px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+#ce_container{
+    display: none;
+    width: 350px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+
+.caja_input_select input{
+    width: 344px;
+}
+.caja_input_select select{
+    width: 100%;
+}
+
+.plus_elige a {
+    font-size: 27px;
+}
+.plus_elige{
+    background-color: rgb(194, 205, 221);
+    height: 100%;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.plus_elige:hover {
+    background-color: rgb(83, 121, 179);
+}
+
+
+
+/* tablas */
+
+.elige_una_tabla {
+    display: flex;
+    justify-content: space-between;
+}
+.seccion_elige_tabla {
+    background-color: rgb(243, 243, 234);
+    width: 45%;
+    border: 1px solid rgb(199, 198, 198);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: auto;
+}
+.seccion_elige_tabla a {
+    margin: 0 auto;
+}
+.seccion_tablas {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.tabla_caja{
+    max-width: 900px;
+    min-width: 800px;
+    margin: 20px auto;
+}
+.tabla_ce{
+    max-width: 1200px;
+    min-width: 800px;
+    margin: 20px auto;
+}
+.tabla_rc{
+    width: 900px;
+    margin: 20px auto;
+}
+#tabla_rc_id{
+    display: none
+}
+#tabla_ce_id{
+    display: none
+}
+#tabla_caja{
+    display: block
+}
+
+/* TABLA CAJA */
+
+.caja_id {
+    width: 8%
+}
+.caja_fecha {
+    width: 8%
+}
+.caja_concepto {
+    width: 8%
+}
+.caja_tipo {
+    width: 8%
+}
+.caja_subtipo {
+    width: 8%
+}
+.caja_saldo_caja {
+    width: 8%
+}
+.caja_valor {
+    width: 8%
+}
+.caja_editar {
+    width: 8%
+}
+.caja_eliminar {
+    width: 8%
+}
+
+
+/* TABLA C.E. */
+
+.ce_id {
+    width: 8%
+}
+.ce_numero_ce {
+    width: 8%
+}
+.ce_venta {
+    width: 8%
+}
+.ce_fecha {
+    width: 13%
+}
+.ce_caja {
+    width: 8%
+}
+.ce_metodo {
+    width: 13%
+}
+.ce_facturas {
+    width: 14%
+}
+.ce_valor {
+    width: 12%
+}
+.ce_editar {
+    width: 8%
+}
+.ce_eliminar {
+    width: 8%
+}
+/* TABLA R.C. */
+
+.rc_id {
+    width: 9%
+}
+.rc_num_rc {
+    width: 12%
+}
+.rc_venta {
+    width: 12%
+}
+.rc_caja {
+    width: 12%
+}
+.rc_metodo {
+    width: 15%
+}
+.rc_fecha {
+    width: 15%
+}
+.rc_valor {
+    width: 15%
+}
+.rc_editar {
+    width: 12%
+}
+.rc_eliminar {
+    width: 12%
+}
+
+
+

@@ -1,0 +1,128 @@
+
+.agregar_remision{
+    font-weight: 400;
+    font-size: 21px;
+    color: rgb(69, 70, 114);
+    margin: 12px 0 21px;
+}
+
+.remisiones_formgroups{
+    display: flex;
+    justify-content: space-between;
+}
+/* AGREGAR FORM */
+
+#remisiones_form_container{
+    display: none;
+    width: 450px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+
+#remisiones_form_container input{
+    width: calc(100% - 15px);
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 10px; 
+    border: 1px solid #b7b9c0;
+}
+
+#remisiones_form_container select,
+.remision_edit_form_container select{
+    border: 1px solid #b7b9c0;
+}
+
+.half_select_remisiones_formgroup{
+    width: 215px;
+}
+.half_select_remisiones_formgroup select{
+    width: 100%;
+    height: 24px;
+    margin: 2px 0;
+    padding: 1px 2px 1px 5px;
+}
+.half_input_remisiones_formgroup{
+    width: 215px;
+}
+.half_input_remisiones_formgroup input{
+    width: 100%;
+}
+.nota_remisiones_formgroup{
+    width: 450px;
+}
+.nota_remisiones_formgroup input{
+    width: 100%;
+    margin-bottom: 15px !important;
+}
+
+
+
+
+/* EDITAR FORM */
+
+.remision_edit_form_container{
+    display: none;
+    width: 350px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+
+.input_editar_remisiones{
+    width: 342px;
+}
+.input_editar_remisiones input{
+    width: 100%;
+}
+.select_editar_remisiones{
+    width: 348px;
+}
+.select_editar_remisiones select{
+    width: 100%;
+    height: 29px;
+    margin: 2px 0;
+    padding: 1px 2px;
+}
+
+/* TABLA REMISIONES */
+
+.remisiones_tabla_container{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.tabla_remisiones{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.rem_id{
+    width: 7%;
+}
+.rem_venta{
+    width: 9%;
+}
+.rem_transportador{
+    width: 15%;
+}
+.rem_fecha{
+    width: 12%;
+}
+.rem_nota{
+    width: 37%
+}
+.rem_editar{
+    width: 10%
+}
+.rem_eliminar{
+    width: 10%
+}

@@ -1,0 +1,192 @@
+
+.facturas_tabla_container{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.tabla_facturas{
+    width: 1200px;
+    margin: 0 auto;
+}
+#facturas_form_container{
+    display: none;
+    width: 450px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+
+#fact_formularios{
+    width: 25%;
+    margin-right: 5%;
+    padding: 10px 5px;
+}
+
+#facturas_form_container input{
+    width: calc(100% - 15px);
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 10px; 
+}
+
+#facturas_form_container select{
+    border: 1px solid #b7b9c0;
+}
+
+/* FORMULARIO EDITAR */
+
+#facturas_edit_form_container{
+    display: none;
+    width: 450px;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #e7e9f1;
+    box-shadow: 0px 1px 3px rgb(169, 169, 169);
+}
+
+.input_editar_facturas{
+    width: 100%;
+}
+.input_editar_facturas input{
+    width: calc(100% - 6px);
+}
+.input_editar_facturas select{
+    width: 100%;
+    height: 29px;
+    border: 1px solid #b7b9c0;
+}
+/* FORMULARIO AGREGAR */
+
+.agregar_factura{
+    font-weight: 400;
+    font-size: 21px;
+    color: rgb(69, 70, 114);
+    margin: 12px 0 21px;
+}
+
+
+.facturas_formgroups{
+    display: flex;
+    justify-content: space-between;
+}
+
+.proveedor_facturas_formgroup{
+    width: 215px;
+}
+.proveedor_facturas_formgroup select{
+    width: 100%;
+    height: 24px;
+    margin: 2px 0;
+    padding: 1px 2px 1px 5px;
+}
+.proveedor_idfactura_formgroup{
+    width: 215px;
+}
+.proveedor_idfactura_formgroup input{
+    width: 100%;
+}
+.fechas_facturas_formgroup{
+    width: 215px;
+}
+.fechas_facturas_formgroup input{
+    width: 100%;
+}
+
+.valor_facturas_formgroup{
+    width: 215px;
+}
+.valor_facturas_formgroup input{
+    width: 100%;
+}
+.pagada_facturas_formgroup{
+    width: 215px;
+}
+.pagada_facturas_formgroup select{
+    width: 100%;
+    height: 24px;
+    margin: 2px 0;
+    padding: 1px 2px 1px 5px;
+}
+
+.producto_facturas_formgroup,
+.categoria_facturas_formgroup{
+    width: 215px;
+}
+.producto_facturas_formgroup select,
+.categoria_facturas_formgroup select{
+    width: 100%;
+    height: 24px;
+    margin: 2px 0;
+    padding: 1px 2px 1px 5px;
+}
+
+.cantidad_facturas_formgroup,
+.precio_facturas_formgroup{
+    width: 215px;
+}
+.cantidad_facturas_formgroup input,
+.precio_facturas_formgroup input{
+    width: 100%;
+    height: 24px;
+    margin: 2px 0;
+    padding: 1px 2px 1px 5px;
+}
+
+
+.disponible_facturas_formgroup{
+    width: 100px;
+}
+.disponible_facturas_formgroup select{
+    width: 100%;
+    height: 24px;
+    margin: 2px 0;
+    padding: 1px 2px 1px 5px;
+}
+.nota_facturas_formgroup{
+    width: 330px;
+}
+.nota_facturas_formgroup input{
+    width: 100%;
+    height: 24px;
+    margin: 2px 0;
+    padding: 1px 2px 1px 5px;
+}
+
+
+/* TITULOS TABLA TAMAÑOS */
+
+.fact_id{
+    width: 5%;
+}
+.fact_proveedor{
+    width: 15%;
+}
+.fact_fecha_despacho{
+    width: 9%;
+}
+.fact_fecha_pago{
+    width: 9%;
+}
+.fact_valor{
+    width: 9%;
+}
+.fact_pagada{
+
+}
+.fact_nota{
+
+}
+.fact_editar{
+
+}
+.fact_eliminar_tab{
+    
+}
